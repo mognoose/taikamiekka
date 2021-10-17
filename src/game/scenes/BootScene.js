@@ -13,7 +13,7 @@ export default class BootScene extends Scene {
   preload () {
     this.load.image('sky', sky)
     this.load.image('ground', ground)
-    this.load.spritesheet('hero', hero, { frameWidth: 50, frameHeight: 50, endFrame: 13 })
+    this.load.spritesheet('hero', hero, { frameWidth: 48, frameHeight: 50, endFrame: 11 })
     this.load.audio('thud', [thudMp3, thudOgg])
   }
 

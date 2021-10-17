@@ -11,6 +11,7 @@ export default {
 
 <style lang="scss">
 body {
+  background: #000;
   height: 100vh;
   display: flex;
   justify-content: center;
